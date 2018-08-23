@@ -1,0 +1,461 @@
+@page {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #FFF; text-align : center;
+	font: 11px verdana, arial, helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+* {
+	font: 11px verdana, arial, helvetica, sans-serif;
+}
+
+h1 {
+	color: #48802c;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0px;
+}
+h2 {
+margin-bottom: 5px;
+font-size: 16px;
+color: #28F;
+font-weight: normal;
+font-family: verdana, arial, helvetica, sans-serif;
+}
+#mainBody {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#pageContent {
+	float: none;
+	margin: 0px auto;
+	margin-left: 50px
+}
+.dialog h1 {
+	font-size: 24px;
+	color: #51AB22;
+	letter-spacing: -1px;
+	margin:10px 0px;
+}
+
+/* report only */
+
+.reportTable {
+	margin-top:15px;
+	width: 100%;
+}
+
+.reportTable tr.category td {
+	height: 24px;
+}
+.reportTable tr.category td .cat{ color:#FFF;}
+
+
+.reportTable tr.category td.cat {
+	text-align: right;
+	font-size: 15px;
+	letter-spacing: -1px;
+	line-height:15px;
+	width: 160px;
+	height:50px;
+	padding-right: 25px;
+	padding-left:10px;
+	border-right: solid 1px #FFF;
+}
+.reportTable tr.category td.overView {
+	text-align: right;
+	font-size: 12px;
+	letter-spacing: -1px;
+	background-image: none;
+	padding-right: 5px;
+	border-right: solid 1px #FFF;
+	text-align:left;
+	vertical-align:top;
+	padding:5px;
+	line-height:20px;
+}
+.reportTable tr.category td h4{
+font-size:16px;
+font-weight:normal;
+color: #165c12;
+margin:5px;
+}
+.vertAlignTop{vertical-align:top;padding-top:12px;}
+
+.reportBar {
+	display: block;
+	background-image: url(../images/reportScore.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: 35px;
+	text-align: right;
+	margin: 3px 0px;
+	color: #FFF;
+	border: solid 1px transparent;
+	padding-right:20px;
+	z-index:1000;
+	width:38px;
+	min-width:38px;
+	position:relative;
+}
+
+.score {
+	font-size: 9px;
+	color: #FFF;
+	margin: 12px;
+	margin-right:-15px;
+	text-align: right;
+	width: 38px;
+	float: right;
+	letter-spacing:-1px;
+}
+
+.noBG td {
+	background-color: #FFF;
+		background-image: url(../images/gradientBG3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.noBG td.cat{
+	background:none;
+}
+
+.colorBG td {
+	
+	background-image: url(../images/gradientBG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+tr.colorBG td.cat{
+	background-image: url(../images/catColBG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color:#FFF;}
+tr.colorBG2 td.cat{
+	background-image: url(../images/catColBG2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color:#FFF;}
+
+tr.colorBG2 td.cat a:link,tr.colorBG td.cat a:link,tr.colorBG2 td.cat a:visited,tr.colorBG td.cat a:visited{
+color:#FFF;
+}
+.colorBG2 td {
+	
+	background-image: url(../images/gradientBG2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.colorCol td {
+	background-color: #D8FFB8;
+	text-align:center;
+	height:25px;
+}
+
+.colorCol2 td {
+	background-color: #B8D5FF;
+	text-align:center;
+	height:25px;
+}
+
+.colorBGDesc td {
+	background-color: #D8FFB8;
+}
+
+.colorBG2Desc td {
+	background-color: #B8D5FF;
+}
+
+.legendBar{
+width:450px;
+padding:0px;
+border-bottom:solid 1px #FFF;
+}
+.legendBar td{
+	color:#FFF;
+	width:10%;
+	text-align:right;
+	border-right:solid 1px #FFF;
+}
+
+.legendTD{
+	background: url(../images/gradientScore.png) no-repeat;
+	width:450px;
+	height:24px;
+	overflow:visible;
+	}
+
+tr.bottomBorder td{border-bottom:solid 1px #EEE}
+.scoreCol {
+	width: 450px;
+	min-width:450px;
+}
+tr.colorBG td.overView{
+background-color:#316dc3;
+color:#FFF;
+}
+tr.colorBG2 td.overView{
+background-color:#6b9227;
+color:#FFF;}
+
+.scoreBlock{width:auto; float:left; margin-right:10px;}
+.scoreBlockText{width:auto;text-align:right;float:left;font-size:10px;letter-spacing:-1px;}
+.legendBlock{width:100%;margin:auto; clear:both; margin-bottom:10px;}
+.scoreBlockColor{height:13px;width:13px; float:left; margin-left:5px;}
+.riskBG td {
+	background-color: #FFF;
+		background-image: url(../images/gradientBGrisk.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.riskBG td.cat{
+	background:none;
+	width:100px;
+}
+.reportTable tr.riskBG td.cat {
+	width:50px;
+}
+.sfi {
+	background: url(../images/gradientScoreSfi.png) no-repeat;
+}
+.risk {
+	background: url(../images/gradientScoreRisk.png) no-repeat;
+}
+
+
+.tierBox{padding: 5px; text-align:center;margin: 5px; border: solid 3px #CCC; font-weight:bold}
+.tierBox.green{background-color: #9BBB59}
+.tierBox.yellow{background-color: #FF9}
+.tierBox.red{background-color: #C0504D}
+.tierBox.yellow{background-color: #FFFF99}
+.tierBox.header{background-color: #608DC3}
+.tierBox.header h2{color:#FFF;}
+.tierBox a:link,.tierBox a:active,.tierBox a:visited{color: #333; text-decoration:underline; font-weight:normal}
+.tierBox a:hover{color: #666; text-decoration:underline}
+.tieredBG{position:relative; top: -350px;, left: -25px;margin-bottom: 15px; width:100px; height:100px; background: url(../images/tieredBg.png) no-repeat; text-align:center; font-size:35px;}
+.tieredBGgreen{background-color:#9BBB59}
+.tieredBGyellow{background-color:#FF9}
+.tieredBGred{background-color:#C0504D; color:#FFF}
+.tieredBG div{font-size:35px;}
+
+
+
+
+
+
+
+tr.extra5_0 td.cat {
+	background-image: url(../images/catColBG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+tr.extra5_1 td.cat {
+	background-image: url(../images/extra5_1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+tr.extra5_2 td.cat {
+	background-image: url(../images/extra5_2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+tr.extra5_3 td.cat {
+	background-image: url(../images/extra5_3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+.extra5_0 td {
+	background-image: url(../images/gradientBG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra5_1 td {
+	background-image: url(../images/gradientExtraBG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra5_2 td {
+	background-image: url(../images/gradientExtraBG2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra5_3 td {
+	background-image: url(../images/gradientExtraBG3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+tr.colorBG2 td.cat a:link,tr.colorBG td.cat a:link,tr.colorBG2 td.cat a:visited,tr.colorBG td.cat a:visited
+	{
+	color: #FFF;
+}
+tr.extra5_2 td.cat a:link{
+	color: #2288ff;
+}
+tr.extra7_2 td.cat a:link{
+	color: #23840E;
+}
+tr.extra2_1 td.cat a:link, tr.extra2_0 td.cat a:link{
+	color: #FFF;
+}
+tr.extra2_2 td.cat a:link{
+	color: #000;
+}
+
+
+.extra7_0 td.cat {
+	background-image: url(../images/extra7_0.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+.extra7_1 td.cat {
+	background-image: url(../images/extra7_2.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+tr.extra7_2 td.cat {
+	background-image: url(../images/extra7_3.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+tr.extra7_3 td.cat {
+	background-image: url(../images/extra5_3.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+.extra7_0 td {
+	background-image: url(../images/gradientExtra7BG0.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra7_1 td {
+	background-image: url(../images/gradientExtra7BG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra7_2 td {
+		background-image: url(../images/gradientExtra7BG2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra7_3 td {
+	background-image: url(../images/gradientExtraBG3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.extra2_0 td.cat {
+	background-image: url(../images/extra2_0.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+.extra2_1 td.cat {
+	background-image: url(../images/extra2_1.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #FFF!important;
+}
+
+tr.extra2_2 td.cat {
+	background-image: url(../images/extra2_2.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+tr.extra2_3 td.cat {
+	background-image: url(../images/extra5_3.png)!important;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color: #000!important;
+}
+.extra2_0 td {
+	background-image: url(../images/gradientExtra2BG0.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra2_1 td {
+	background-image: url(../images/gradientExtra2BG1.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra2_2 td {
+		background-image: url(../images/gradientExtra2BG2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.extra2_3 td {
+	background-image: url(../images/gradientExtraBG3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+tr.extra5_0 td.overView{
+	background-color: #316dc3;
+	color: #FFF;
+}
+tr.extra5_1 td.overView{
+	background-color: #85C0FF;
+	color: #FFF;
+}
+tr.extra5_2 td.overView{
+	background-color: #E0EFFF;
+	color: #000!important;
+}
+tr.extra5_3 td.overView{
+	background-color: #FCFCFC;
+	color: #000!important;
+}
+
+
+
+tr.extra2_0 td.overView{
+	background-color: #726740;
+	color: #FFF;
+}
+tr.extra2_1 td.overView{
+	background-color: #958C71;
+	color: #FFF;
+}
+tr.extra2_2 td.overView{
+	background-color: #DCD9CF;
+	color: #000!important;
+}
+tr.extra2_3 td.overView{
+	background-color: #FCFCFC;
+	color: #000!important;
+}
+
+tr.extra7_0 td.overView{
+	background-color: #779B00;
+	color: #FFF;
+}
+tr.extra7_1 td.overView{
+	background-color: #96B835;
+	color: #FFF;
+}
+tr.extra7_2 td.overView{
+	background-color: #E4F5BB;
+	color: #000!important;
+}
+tr.extra7_3 td.overView{
+	background-color: #FCFCFC;
+	color: #000!important;
+}

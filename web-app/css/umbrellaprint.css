@@ -1,0 +1,39 @@
+#langBar{
+	display:none;
+}
+
+#vines{
+	display:none;
+}
+
+#nav{
+	display:none;
+}
+
+#mainLogo{
+	display:none;
+}
+
+#pageBody{
+	width:100%;
+}
+
+#footer{
+	display:none;
+}
+
+.fancybox-overlay{
+	text-align:center;
+}
+
+#printButton{
+	display:none;
+}
+
+#chartdiv{
+	margin-left:-50px;
+}
+
+#grailsLogo{
+	height:0;
+}

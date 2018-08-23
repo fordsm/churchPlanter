@@ -1,0 +1,21 @@
+.login {
+    background: #fff url(../images/GreenCircle.jpg)center no-repeat;
+    padding-bottom:60px;
+    padding-top:90px;
+    color:#000000;
+}
+.choose {
+     background: #fff url(../images/LimeCircle.gif)no-repeat ;
+     background-position:center center;
+     padding-bottom:50px;
+     padding-top:85px;    
+     text-align: center;
+     vertical-align:text-top;
+     color: white;
+     width: 150px;
+/*     border: thin;*/
+/*     border-style: solid;*/
+/*     border-color: green;*/
+     margin: 0px auto 0px auto;
+}
+
